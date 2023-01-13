@@ -1,0 +1,57 @@
+/*We cover from this course*/
+
+1. Class based component
+2. props
+3. looping with map function
+4. styling in react
+5. import export (img/css/js file)
+6. 
+
+
+
+
+
+# Syling in React
+
+-> first way
+Step 1: add className to your JSX like className="color"
+Step 2: create a seprate file like Style.css
+Step 3: now import your document
+
+* you can apply condition inside className={winner ? 'red' : 'green'}
+
+-> Second Way 
+Step 3: Create object with css property
+Step 3: style={object variable name}
+
+
+-> Third way 
+
+Step 3: use style={{}} atribute and pass css property
+
+* remember double breace
+
+# import export 
+
+step 1: if you export some file, that canbe impoted
+step 2: you can export defaultly or multiple file
+
+symtax: export default <filename>
+export {<filename>, ...n}
+
+* when you are importing multiple files, must use brace{} and match the same name
+*
+
+# import image or Assets
+
+import <imagename> from <sourcename>
+import dog from './dogs'
+
+
+
+
+Step 1:
+Step 2:
+Step 3:
+Step 4:
+Step 5l:

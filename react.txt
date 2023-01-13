@@ -180,6 +180,11 @@ const el = props {
 
 # props type cheking
 
+-> for setting default props
+static defaultProps = {
+    name : 'Anonimous'
+  }
+
 -> install with npm and import in your file 
 
 import PropTypes from 'prop-types';
@@ -858,6 +863,7 @@ export default class User extends Component {
 4/1/23
 
 #list in react
+* map function return a element do not use brace over there
 
 export default class App extends Component {
 render(){
